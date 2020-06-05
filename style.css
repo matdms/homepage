@@ -75,6 +75,15 @@ nav a:hover {
   color: #FEFFFF;
 }
 
+main {
+  flex: 1;
+}
+
+footer {
+  color: #2B7A78;
+  font-size: 14px;
+}
+
 /* creation du menu:
   aligne le logo home à gauche et les items à droite
   tuto : 
