@@ -7,7 +7,7 @@
   #2B7A78 > shadow ?
   #3AAFA9 > background
   #DEF2F1 > grey text
-  #FEFFFF > white title
+  #FEFFFF > white title & links
 
 */
 
@@ -53,12 +53,13 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #DEF2F1;
+  font-weight: bold;
+  color: #FEFFFF;
 }
 
 nav a:hover {
   text-decoration: none;
-  font-weight: bold;
+  color: #3AAFA9;
 }
 
 .logo a:hover {
@@ -79,6 +80,7 @@ nav a:hover {
 
 main {
   flex: 1;
+  width: 80%;
 }
 
 footer {
