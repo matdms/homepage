@@ -47,7 +47,7 @@ nav ul {
 
 nav li {
   margin: 10px 20px;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 
 
@@ -76,6 +76,7 @@ nav a:hover {
 
 .title {
   color: #FEFFFF;
+  font-size: 1.8em;
 }
 
 main {
@@ -85,7 +86,17 @@ main {
 
 footer {
   color: #2B7A78;
-  font-size: 14px;
+  font-size: 0.8em;
+}
+
+article h1 {
+  color: #FEFFFF;
+  font-size: 1.8em;
+}
+
+aside h1 {
+  color: #FEFFFF;
+  font-size: 1.4em;
 }
 
 /* creation du menu:
