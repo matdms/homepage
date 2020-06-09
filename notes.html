@@ -33,16 +33,83 @@
   <main>
     <article>
       <h1>Git version control</h1>
+      
+      <h3>Configuration initiale</h3>
+      <p class="code">
+        git config --global user.name "your name" <br>
+        git config --global user.email "your@email.com"
+      </p>
+
+      <h3>Initialisation repo dossier de travail</h3>
+      <p class="code">
+        cd ~/my_working_directory<br>
+        git init
+      </p>
+
+      <h3>Création du repo sous Github</h3>
+      <p class="texte">
+        Cliquer sur <em>New Repository</em> <br>
+        Copier le lien de l'option <em>"push an existing repo from the command line"</em>
+      </p>
+      <p class="code">
+        git remote add origin https:// github.com/xxxxx/my_repo.git <br>
+        git push -u origin master
+      </p>
+
+      <h3>First commit</h3>
+      <p class="code">
+        git add .<br>
+        git commit -m "commit description"<br>
+        git push origin master <br>
+      </p>
+      <p class="texte">
+        Contrôle de l'état du repo
+      </p>
+      <p class="code">
+        git status<br>
+        git log<br>
+      </p>
+
+      <h3>Gestion des branches</h3>
+      <p class="texte">
+        Afficher les branches existantes
+      </p>
+      <p class="code">
+        git branch<br>
+      </p>
+      <p class="texte">
+        Créer une branche
+      </p>
+      <p class="code">
+        git branch my_new_branch<br>
+      </p>
+      <p class="texte">
+        Changer de branche
+      </p>
+      <p class="code">
+        git checkout my_new_branch<br>
+      </p>
+      <p class="texte">
+        Merge la branche <em>dev</em> dans <em>master</em>
+      </p>
+      <p class="code">
+        git checkout master<br>
+        git merge dev
+      </p>
     </article>
+
     <article>
       <h1>HTML5 fundamentals</h1>
     </article>
+
     <article>
       <h1>CSS style sheets</h1>
     </article>
+
     <article>
       <h1>JavaScript</h1>
     </article>
+
     <article>
       <h1>Ruby programming</h1>
     </article>
