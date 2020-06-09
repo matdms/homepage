@@ -27,7 +27,8 @@ body {
   min-height: 100vh;
   margin: 0 auto 0 auto;
 
-  background-color: #3AAFA9;
+  /* background-color: #3AAFA9; */
+  background: url('../imgs/bg_turquoise_01.png');
   color: #17252A;
 
 }
@@ -85,19 +86,27 @@ main {
 }
 
 footer {
-  color: #2B7A78;
+  width: 80%;
+  color: #17252A;
   font-size: 0.8em;
+  background-color: #2B7A78;
+  text-align: center;
+}
+
+footer p {
+  margin: 5px;
 }
 
 article {
   margin-bottom: 20px;
   padding: 20px;
   color: #17252A;
+  background-color: #DEF2F1;
 }
 
 article h1 {
-  color: #FEFFFF;
-  font-size: 1.8em;
+  color: #17252A;
+  font-size: 2em;
 }
 
 aside h1 {
