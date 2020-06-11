@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/main_style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <title>homepage</title>
+  <title>webdev</title>
 </head>
 <body>
 
@@ -27,7 +27,8 @@
   </header>
   
   <div class="title">
-    <h1>Web development cheat sheet</h1>
+    <!-- <h1>Web development cheat sheet</h1> -->
+    <h1>Web dev cheat sheet</h1>
   </div>
 
   <main>
@@ -36,14 +37,18 @@
       
       <h3>Configuration initiale</h3>
       <p class="code">
-        git config --global user.name "your name" <br>
-        git config --global user.email "your@email.com"
+        <code>
+          git config --global user.name "your name" <br>
+          git config --global user.email "your@email.com"
+        </code>
       </p>
 
       <h3>Initialisation repo dossier de travail</h3>
       <p class="code">
-        cd ~/my_working_directory<br>
-        git init
+        <code>
+          cd ~/my_working_directory<br>
+          git init
+        </code>
       </p>
 
       <h3>Création du repo sous Github</h3>
@@ -52,22 +57,28 @@
         Copier le lien de l'option <em>"push an existing repo from the command line"</em>
       </p>
       <p class="code">
-        git remote add origin https://github.com/xxxxx/my_repo.git <br>
-        git push -u origin master
+        <code>
+          git remote add origin https://github.com/xxxxx/my_repo.git <br>
+          git push -u origin master
+        </code>
       </p>
 
       <h3>First commit</h3>
       <p class="code">
-        git add .<br>
-        git commit -m "commit description"<br>
-        git push origin master <br>
+        <code>
+          git add .<br>
+          git commit -m "commit description"<br>
+          git push origin master <br>
+        </code>
       </p>
       <p class="texte">
         Contrôle de l'état du repo
       </p>
       <p class="code">
-        git status<br>
-        git log<br>
+        <code>
+          git status<br>
+          git log<br>
+        </code>
       </p>
 
       <h3>Gestion des branches</h3>
@@ -75,31 +86,54 @@
         Afficher les branches existantes
       </p>
       <p class="code">
-        git branch<br>
+        <code>git branch<br>
+        </code>
       </p>
       <p class="texte">
         Créer une branche
       </p>
       <p class="code">
-        git branch my_new_branch<br>
+        <code>git branch my_new_branch<br></code>
       </p>
       <p class="texte">
         Changer de branche
       </p>
       <p class="code">
-        git checkout my_new_branch<br>
+        <code>git checkout my_new_branch<br></code>        
       </p>
       <p class="texte">
         Merge la branche <em>dev</em> dans <em>master</em>
       </p>
       <p class="code">
-        git checkout master<br>
-        git merge dev
+        <code>
+          git checkout master <br>    <!-- REFAIRE LE CSS AVEC LA BALISE CODE PLUTOT que p.code -->
+          git merge dev
+        </code>
       </p>
     </article>
 
     <article>
       <h1>HTML5 fundamentals</h1>
+      <h3>Basic html5 file structure</h3>
+      
+      <p class="code">
+        <code>
+          &lt!doctype html> <br>
+          &lthtml lang="fr"> <br>
+          &lthead> <br>
+          &nbsp &ltmeta charset="utf-8"> <br>
+          &nbsp &lttitle>Titre&lt/title> <br>
+          &nbsp &ltlink rel="stylesheet" href="styles/style.css"> <br>
+          &lt/head> <br>
+          &ltbody> <br>
+          &nbsp &lt!-- <br>
+          &nbsp your content <br>
+          &nbsp --> <br>
+          &nbsp &ltscript src="scripts/script.js">&lt/script> <br>
+          &lt/body> <br>
+          &lt/html> <br>
+        </code>
+      </p>
     </article>
 
     <article>
@@ -111,17 +145,25 @@
     </article>
     
     <article>
+      <h1>Vue JS</h1>
+    </article>
+    
+    <article>
       <h1>Wordpress</h1>
     </article>
 
     <article>
       <h1>Ruby programming</h1>
     </article>
+
+    <article>
+      <h1>Création d'entreprise</h1>
+    </article>
   </main>
 
 
   <footer>
-    <p><em>matdms 2o2o</em></p>
+    <p>matdms 2o2o | full stack web dev | matdms.com</p>
   </footer>
 
 
